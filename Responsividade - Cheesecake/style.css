@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    -webkit-font-smoothing: antialised;
+    -moz-osx-font-smoothing: greyscale;
+}
+
+:root {
+    font-family: 'Source Serif 4', serif;
+    font-size: 62.5%;
+
+}
+
+body {
+    color: #A54328;
+    font-size: 1.6rem;
+    
+    background-image: url(https://s3-alpha-sig.figma.com/img/6597/0732/27b775104e016b33024ed903e8b6324f?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=JsgNeHjJeZXJjL8VBNASW7CvBeNanIezojhaRaQLfdZM9U2WehD3eCAYdZUnyH81Rk-fJfiojBolmj9FMkTofna2hTEAd3ZrYzkvuzUZw7mH3kXKm43j8fvILaaNRQGrMU33pA1tHj1XvzwTggBApAQzTfcDxrDzRAtq2T4Ymjz~4wkVG5C7gY8SkWEZlM92WusU8YlWGn9Yk7xf7iAe~NguoLwLl8WsozaHgJsfWeUu4C0JSiBmDqV0FqEirYSs5MhdoQHEGsMfyf5uvYGGc8hfFZioLEqQf3TTYU9-i-BmxEmkPyjf-f67AgxIo7bQwgGLCGTDGYsqKEqzbAhbnQ__);
+    background-position: 100%;
+}
+
+main {
+    max-width: 32rem;
+    margin-inline: auto;
+    padding: 5.3rem 3.7rem;
+    box-sizing: content-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+img {
+    width: 100%;
+    margin-block: 3.2rem;
+}
+
+h1, h2{
+    font-size: 2.8rem;
+}
+
+h2 {
+    margin-bottom: 3.2rem;
+}
+
+p, strong, li, ol, ul{
+    font-size: 1.4rem;
+
+}
+
+ul, ol{
+    padding-left: 2.6rem;
+}
+
+ul {
+    margin-bottom: 1.6rem;
+}
+
+button {
+    background-color: #A54328;
+    font-family: 'Source Serif 4', sans-serif;
+    color: white;
+    padding: 1.5rem;
+    border: 0;
+    border-radius: 0.5rem;
+    margin-top: 3.2rem;
+
+}
+
+@media (min-width: 1120px) {
+    main {
+        flex-direction: row;
+        gap: 16rem;
+        max-width: fit-content;
+    }
+
+    .recipe {
+        max-width: 43.5rem;
+    }
+
+    .ingredients {
+        max-width: 52.5rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p, li, strong {
+        font-size: 2rem;
+    }
+}
